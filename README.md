@@ -5,7 +5,7 @@ A Parcel 2 transformer for Svelte 3 and 4.
 ## Installation
 
 ```bash
-npm install parcel-transformer-svelte -D
+npm install parcel-transformer-svelte-4 -D
 ```
 
 After this you should configure in `.parcelrc` the transformation for Svelte files:
