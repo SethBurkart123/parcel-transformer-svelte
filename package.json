@@ -24,13 +24,13 @@
     "parcel": "^2.0.0"
   },
   "peerDependencies": {
-    "svelte": "^3.0.0"
+    "svelte": "^3.0.0 || ^4.0.0"
   },
   "dependencies": {
     "@parcel/plugin": "^2.0.0",
     "@parcel/source-map": "^2.0.0",
     "@parcel/utils": "^2.0.0",
-    "svelte": "^3.44.0"
+    "svelte": "^3.44.0 || ^4.0.0"
   },
   "devDependencies": {
     "prettier": "^3.0.0"
