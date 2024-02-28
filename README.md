@@ -45,6 +45,36 @@ preprocessors: {
 }
 ```
 
+## Usage
+
+In order to use svelte inside of your project, all you need to do is initialise a small html file:
+```
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simple Svelte App</title>
+  </head>
+  <body class="">
+    <script type="module" src="./main.ts"></script>
+  </body>
+</html>
+```
+And link it to a js (or ts) file where you import and run the app.svelte:
+```
+import App from './main.svelte';
+
+const app = new App({
+  target: document.body,
+  props: {
+    name: 'Svelte',
+  },
+});
+
+export default app;
+```
+There you have it! That's all you need. If you are struggling feel free to open a discussion and I'll be right over to help you out!
+
 ## License
 
 MIT License
