@@ -4,7 +4,10 @@
   "description": "Parcel 2 transformer for Svelte 4",
   "main": "index.js",
   "author": "Seth Burkart",
-  "repository": "github:SethBurkart123/parcel-transformer-svelte",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SethBurkart123/parcel-transformer-svelte.git"
+  },
   "license": "MIT",
   "keywords": [
     "parcel",
@@ -31,5 +34,12 @@
   },
   "devDependencies": {
     "prettier": "^3.0.0"
+  },
+  "bugs": {
+    "url": "https://github.com/SethBurkart123/parcel-transformer-svelte/issues"
+  },
+  "homepage": "https://github.com/SethBurkart123/parcel-transformer-svelte#readme",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
   }
 }
