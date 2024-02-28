@@ -55,7 +55,7 @@ preprocessors: {
 ## Usage
 
 In order to use svelte inside of your project, all you need to do is initialise a small html file:
-```
+```html
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -68,7 +68,7 @@ In order to use svelte inside of your project, all you need to do is initialise 
 </html>
 ```
 And link it to a js (or ts) file where you import and run the app.svelte:
-```
+```js
 import App from './main.svelte';
 
 const app = new App({
