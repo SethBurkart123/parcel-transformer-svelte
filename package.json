@@ -1,15 +1,16 @@
 {
-  "name": "parcel-transformer-svelte",
-  "version": "1.2.3",
-  "description": "Parcel 2 transformer for Svelte 3",
+  "name": "parcel-transformer-svelte-4",
+  "version": "1.2.4",
+  "description": "Parcel 2 transformer for Svelte 4",
   "main": "index.js",
-  "author": "Vladislav Orlov <me@orlov-vo.ru>",
-  "repository": "github:orlov-vo/parcel-transformer-svelte",
+  "author": "Seth Burkart",
+  "repository": "github:SethBurkart123/parcel-transformer-svelte",
   "license": "MIT",
   "keywords": [
     "parcel",
     "transformer",
-    "svelte"
+    "svelte",
+    "svelte-4"
   ],
   "files": [
     "/index.js",
